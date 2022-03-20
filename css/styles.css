@@ -1,0 +1,198 @@
+ body {
+   color: black;
+ }
+
+ .colored-section {
+  background-color: black;
+  color: #1A132F;
+
+}
+
+.white-section{
+  background-color: #fff;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.black-section {
+  background-color: black;
+  margin: 20px,10px;
+  padding: 3%,2%;
+  position: relative;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat-bold";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.icon {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: white;
+}
+.title-image {
+  width: 55%;
+  height: 135%;
+  position: absolute;
+  bottom: 1%;
+  right: 30%;
+
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  color: #fff;
+}
+.para-heading{
+  color: #fff;
+}
+
+.small-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.6rem;
+    color: #fff;
+}
+
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+.progress{
+  width: 64%;
+  position: absolute;
+  bottom: 44%;
+  right: 10%;
+
+}
+.info{
+  width: 64%;
+  position: absolute;
+  bottom: 29%;
+  right: 10%;
+}
+.warning{
+  width: 64%;
+  position: absolute;
+  bottom: 14%;
+  right: 10%;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: black;
+  padding: 100px;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.education{
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.eleventh{
+  color: #fff;
+  font-size: 1.5rem;
+}
+em {
+  color: grey;
+}
+
+
+/* unique */
+.unique{
+  background-color: #F7F6F2;
+  padding: 100px;
+  line-height: 1.8;
+  position: relative;
+}
+.section-heading{
+  color: red;
+  margin-bottom: 10px;
+}
+.para{
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+.man{
+  width: 14%;
+  height: 65%;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+
+}
+
+/* Footer Section */
+
+
+.fa-brands {
+  margin: 20px 10px;
+}
+.heading {
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: absolute;
+  left: 200px;
+  bottom: 20px;
+}
+.heading-contact{
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+a{
+  padding-right: 30px;
+  margin-bottom: 100px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
